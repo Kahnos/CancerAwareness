@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="4">
+
+    <ScrollView
+        android:layout_width="0px"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView4"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="6" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/imageView9"
+                android:src="@drawable/sintoma_1_secrecion"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:id="@+id/imageView10"
+                android:layout_weight="1"
+                android:src="@drawable/sintoma_2_pezon" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:id="@+id/imageView11"
+                android:layout_weight="1"
+                android:src="@drawable/sintoma_3_" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:id="@+id/imageView12"
+                android:layout_weight="1"
+                android:src="@drawable/sintoma_4_tension" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:id="@+id/imageView13"
+                android:layout_weight="1"
+                android:src="@drawable/sintoma_5_textura" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:id="@+id/imageView14"
+                android:layout_weight="1"
+                android:src="@drawable/sintoma_6_masa" />
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:layout_width="0px"
+        android:layout_height="fill_parent"
+        android:id="@+id/imageView9"
+        android:layout_weight="3"
+        android:src="@drawable/pos_1" />
+
+</LinearLayout>

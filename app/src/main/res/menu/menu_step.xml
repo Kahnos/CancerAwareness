@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.josed_000.cancerawareness.StepActivity">
+    <item
+        android:id="@+id/info_steps"
+        android:title="Ayuda"
+        android:icon="@drawable/informationw"
+        app:showAsAction="ifRoom"
+        />
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="actionbar_background">#FFEB75B8</color>
+    <color name="pink">#FFFAF0FA</color>
+    <color name="white">#FFFFFF</color>
+    <color name="dark_pink">#FFADE1</color>
+    <color name="black">#000000</color>
+    <color name="pink_main">#FFC4E9</color>
+    <color name="blue">#FF26CDEB</color> <!-- Doctor -->
+    <color name="purple">#FFA42AD4</color> <!-- Otro -->
+    <color name="pink_reminder">#FFFF4AB1</color> <!-- Autoexamen -->
+    <color name="green">#2fcc70</color> <!-- Saludable -->
+    <color name="red">#fc0000</color> <!-- Anomalia -->
+</resources>

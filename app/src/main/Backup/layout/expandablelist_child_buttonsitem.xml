@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <ImageButton
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:id="@+id/expandablelist_lastitem_phone"
+        android:layout_weight="1"
+        android:src="@drawable/phone"
+        android:clickable="true"
+        android:focusable="false"
+        android:adjustViewBounds="false"
+        android:scaleType="fitCenter"
+        android:background="@null" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="VER UBICACIÓN"
+        android:id="@+id/expandablelist_lastitem_address"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:focusable="false"
+        android:background="@null" />
+</LinearLayout>

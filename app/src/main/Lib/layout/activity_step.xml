@@ -1,0 +1,127 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+
+    tools:context="com.example.josed_000.cancerawareness.StepActivity"
+    android:orientation="vertical"
+    android:weightSum="8"
+    android:background="#FFFAF0FA">
+    <!--
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"-->
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/step0"
+        android:id="@+id/steps_textView"
+        android:gravity="center"
+        android:layout_weight="2"
+        android:textSize="15sp"
+        android:textIsSelectable="false" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/steps_viewPager"
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:layout_weight="4.5">
+    </android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:layout_weight="1.5">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:baselineAligned="false">
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/imageView_steps_prev"
+                    android:adjustViewBounds="false"
+                    android:src="@drawable/icon_left_triangle"
+                    android:onClick="stepsClick"
+                    android:clickable="true"
+                    android:background="@drawable/button_border_steps" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/imageView_steps_next"
+                    android:src="@drawable/icon_right_triangle"
+                    android:clickable="true"
+                    android:onClick="stepsClick"
+                    android:background="@drawable/button_border_steps" />
+            </FrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:baselineAligned="false">
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="He notado algo"
+                    android:id="@+id/textView_steps_ohshit"
+                    android:gravity="center"
+                    android:onClick="stepsClick"
+                    android:clickable="true"
+                    android:background="@drawable/button_border_steps"
+                    android:textColor="#ffffffff" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Terminar examen"
+                    android:id="@+id/textView_steps_finish"
+                    android:gravity="center"
+                    android:clickable="true"
+                    android:onClick="stepsClick"
+                    android:background="@drawable/button_border_steps"
+                    android:textColor="#ffffffff" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="8dp"
+    android:layout_height="match_parent"
+    android:weightSum="10"
+    >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:layout_weight="8">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|center_horizontal"
+                android:clickable="false"
+                android:id="@+id/reminder_type"
+                android:layout_weight="2"
+                android:background="@color/dark_pink"
+                android:checkedButton="@+id/type_other"
+                >
+
+                <RadioButton
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="Auto-Examen"
+                    android:textColor="@color/white"
+                    android:id="@+id/type_exam"
+                    />
+
+                <RadioButton
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/type_doctor"
+                    android:textColor="@color/white"
+                    android:text="@string/cita_medica2"
+                    />
+
+                <RadioButton
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textColor="@color/white"
+                    android:text="Otro"
+                    android:id="@+id/type_other"
+                    />
+            </RadioGroup>
+
+            <DatePicker
+                android:id="@+id/date_picker"
+                android:layout_width="match_parent"
+                android:calendarViewShown="true"
+                android:spinnersShown="false"
+                android:layout_weight="4"
+                android:layout_height="0dp"
+                android:headerBackground="@color/dark_pink"
+                android:dayOfWeekBackground="@color/pink"
+                android:background="@color/pink"/>
+
+            <TimePicker
+                android:id="@+id/time_picker"
+                android:layout_weight="4"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:headerBackground="@color/dark_pink"
+                android:background="@color/pink" />
+
+            <EditText
+                android:id="@+id/reminder_detail"
+                android:hint="Detalles del recordatorio:"
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="2"
+                android:textColorHint="@color/white"
+                android:background="@drawable/button_border_calendar"
+                android:textColor="@color/white"
+                android:paddingBottom="10dp"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/date_time_set"
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:text="Crear Recordatorio"
+        android:layout_height="0dp"
+        android:background="@drawable/button_border_calendar_dark"
+        android:textColor="@color/white"/>
+    
+</LinearLayout>

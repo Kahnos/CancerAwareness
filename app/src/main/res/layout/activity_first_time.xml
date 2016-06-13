@@ -1,0 +1,98 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.josed_000.cancerawareness.FirstTimeActivity"
+    android:orientation="vertical"
+    android:weightSum="8"
+    android:background="@color/pink">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:id="@+id/imageView7"
+        android:src="@drawable/logo_1"
+        android:layout_gravity="center"
+        android:layout_weight="2.5" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:layout_weight="1.5">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Introduce tu nombre:"
+            android:id="@+id/textView8" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/name_editText"
+            android:hint="Nombre" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:layout_weight="3"
+        android:weightSum="4">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0px"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Escoja la fecha para realizar su auto-examen mensual:"
+            android:id="@+id/textView16"
+            android:layout_weight="1" />
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="0px"
+            android:id="@+id/scrollView3"
+            android:layout_weight="2">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/fecha_autoexamen"
+                android:id="@+id/textView17" />
+        </ScrollView>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="0px"
+            android:text="Cliquea aquí para escoger la fecha"
+            android:id="@+id/default_date_button"
+            android:clickable="true"
+            android:onClick="chooseDate"
+            android:background="@drawable/button_border_steps"
+            android:textColor="@color/white"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:text="Guardar"
+        android:id="@+id/button"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:nestedScrollingEnabled="false"
+        android:onClick="firstOnClick"
+        android:layout_gravity="right"
+        android:background="@drawable/button_border_steps"
+        android:textColor="@color/white" />
+
+</LinearLayout>

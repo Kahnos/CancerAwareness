@@ -1,0 +1,130 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:paddingBottom="0dp"
+    android:orientation="vertical"
+    tools:context="com.example.jesscastro.sunshine.AvatarCreation2"
+    android:weightSum="19">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="0dp"
+        android:layout_weight="11">
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/body_view"
+            android:src="@drawable/munequitablanquita"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"/>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/shoes_view"
+            android:src="@drawable/black_shoes"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/clothes_view"
+            android:src="@drawable/clothes_1"
+            android:layout_centerHorizontal="true" />
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/wig_view"
+            android:src="@drawable/black_wig"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/pants_view"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:layout_weight="1.5"
+        android:gravity="right"
+        android:weightSum="2">
+
+        <Button
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:text="COLOR DE PIEL"
+            android:id="@+id/avatar_changeskin"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:onClick="avatarOnClick" />
+
+        <Button
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:text="FINALIZAR"
+            android:id="@+id/avatar_finish"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:onClick="avatarOnClick" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1.5">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Cabello"
+            android:id="@+id/cabello_button"
+            android:layout_weight="1"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:padding="0dp"
+            android:onClick="paginas"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Ropa"
+            android:id="@+id/ropa_button"
+            android:layout_weight="1"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:padding="0dp"
+            android:onClick="paginas"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Zapatos"
+            android:id="@+id/zapatos_button"
+            android:layout_weight="1"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:padding="0dp"
+            android:onClick="paginas"
+            />
+
+
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="5"
+        android:padding="0dp">
+    </android.support.v4.view.ViewPager>
+</LinearLayout>

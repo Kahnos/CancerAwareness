@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.josed_000.cancerawareness.TimelineActivity">
+    <item
+        android:id="@+id/info_timeline"
+        android:title="Ayuda"
+        android:icon="@drawable/informationw"
+        app:showAsAction="ifRoom"
+        />
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item
+        android:id="@+id/add_timeline"
+        android:title="Añadir Recordatorio"
+        android:icon="@drawable/add"
+        app:showAsAction="ifRoom"
+        ></item>
+
+</menu>

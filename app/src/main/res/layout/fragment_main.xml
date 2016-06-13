@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="8">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:layout_weight="6">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/imageView_avatar"
+            android:src="@drawable/bedroom"
+            android:scaleType="centerCrop"
+            />
+
+        <ImageView
+            android:layout_alignBottom="@+id/imageView_avatar"
+            android:layout_width="220dp"
+            android:layout_height="fill_parent"
+            android:scaleType="centerCrop"
+            android:id="@+id/body_view2"
+            android:src="@drawable/munequita3" />
+        <ImageView
+            android:layout_width="220dp"
+            android:layout_height="fill_parent"
+            android:layout_alignTop="@+id/imageView_avatar"
+            android:scaleType="centerCrop"
+            android:id="@+id/shoes_view2"
+            android:src="@drawable/black_shoes" />
+        <ImageView
+            android:layout_width="220dp"
+            android:layout_height="fill_parent"
+            android:layout_alignTop="@+id/imageView_avatar"
+            android:scaleType="centerCrop"
+            android:id="@+id/pants_view2" />
+        <ImageView
+            android:layout_width="220dp"
+            android:layout_height="fill_parent"
+            android:layout_alignTop="@+id/imageView_avatar"
+            android:scaleType="centerCrop"
+            android:id="@+id/clothes_view2"
+            android:src="@drawable/vestido1" />
+        <ImageView
+            android:layout_width="220dp"
+            android:layout_height="fill_parent"
+            android:layout_alignTop="@+id/imageView_avatar"
+            android:scaleType="centerCrop"
+            android:id="@+id/wig_view2"
+            android:clickable="true"
+            android:onClick="openActivity"
+            android:src="@drawable/pelo4" />
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/sabias_que"
+            android:clickable="true"
+            android:onClick="didYouKnow"/>
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:layout_weight="2"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="2">
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/imageView_steps"
+                android:src="@drawable/icon_steps"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:onClick="openActivity"
+                android:background="@drawable/button_border_white"/>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/imageView_library"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:onClick="openActivity"
+                android:src="@drawable/icon_library"
+                android:background="@drawable/button_border"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="2" >
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/imageView_timeline"
+                android:src="@drawable/calendarwhite"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:onClick="openActivity"
+                android:background="@drawable/button_border"/>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/imageView_doctors"
+                android:src="@drawable/icon_doctor"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:onClick="openActivity"
+                android:background="@drawable/button_border_white"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

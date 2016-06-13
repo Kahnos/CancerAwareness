@@ -1,0 +1,100 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.josed_000.cancerawareness.StepActivity"
+    android:orientation="vertical"
+    android:weightSum="7"
+    >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/step0"
+        android:id="@+id/steps_textView"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:layout_weight="1" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/steps_viewPager"
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:layout_weight="4.5">
+    </android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:layout_weight="1.5">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:baselineAligned="false">
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/imageView_steps_prev"
+                    android:adjustViewBounds="false"
+                    android:src="@drawable/ant"
+                    android:onClick="stepsClick"
+                    android:clickable="true" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/imageView_steps_next"
+                    android:src="@drawable/sig"
+                    android:clickable="true"
+                    android:onClick="stepsClick" />
+            </FrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:baselineAligned="false">
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="He notado algo"
+                    android:id="@+id/textView_steps_ohshit"
+                    android:gravity="center"
+                    android:onClick="stepsClick"
+                    android:clickable="true" />
+            </FrameLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

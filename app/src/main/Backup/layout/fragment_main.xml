@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="3">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:layout_weight="2">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/imageView_avatar"
+            android:src="@drawable/avatar"
+            android:clickable="true"
+            android:onClick="openActivity" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/imageView_steps"
+                android:src="@drawable/survey"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:onClick="openActivity" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/imageView_library"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:onClick="openActivity"
+                android:src="@drawable/libros" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/imageView_timeline"
+                android:src="@drawable/timeline"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:onClick="openActivity"/>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/imageView_doctors"
+                android:src="@drawable/estetoscopio"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:onClick="openActivity"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

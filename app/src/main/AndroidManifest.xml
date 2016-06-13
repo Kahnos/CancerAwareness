@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.josed_000.cancerawareness" >
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/breast_aware"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+
+        android:hardwareAccelerated="true"
+        android:largeHeap="true"
+        >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".SurveyActivity"
+            android:label="@string/title_activity_survey"
+            android:parentActivityName=".StepActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.josed_000.cancerawareness.StepActivity" />
+        </activity>
+
+        <receiver
+            android:name=".NotificationAlarm"
+            android:permission="android.permission.RECEIVE_BOOT_COMPLETED" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".TimelineActivity"
+            android:label="@string/title_activity_timeline"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.josed_000.cancerawareness.MainActivity" />
+        </activity>
+        <activity
+            android:name=".LibraryActivity"
+            android:label="@string/title_activity_library"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.josed_000.cancerawareness.MainActivity" />
+        </activity>
+        <activity
+            android:name=".DoctorsActivity"
+            android:label="@string/title_activity_doctors"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.josed_000.cancerawareness.MainActivity" />
+        </activity>
+        <activity
+            android:name=".StepActivity"
+            android:label="@string/title_activity_step"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.josed_000.cancerawareness.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ResultActivity"
+            android:label="@string/title_activity_result"
+            android:parentActivityName=".TimelineActivity"
+            android:windowSoftInputMode="adjustPan"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.josed_000.cancerawareness.TimelineActivity" />
+        </activity>
+        <activity
+            android:name=".ResultActivityGet"
+            android:label="@string/title_activity_result"
+            android:parentActivityName=".TimelineActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.josed_000.cancerawareness.TimelineActivity" />
+        </activity>
+        <activity
+            android:name=".AvatarCreation"
+            android:label="@string/title_activity_avatarcreation"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.josed_000.cancerawareness.MainActivity" />
+        </activity>
+        <activity
+            android:name=".FirstTimeActivity"
+            android:label="@string/title_activity_first_time"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

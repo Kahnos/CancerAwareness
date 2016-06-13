@@ -1,0 +1,172 @@
+<resources>
+    <string name="app_name">BreastAware</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_steps">Pasos Auto-Examen</string>
+    <string name="test_text_survey">Test text for item in survey screen, this text will explain a symptom to the user.</string>
+    <string name="test_text2">2 Test text for steps of this list items inside STEPS screen.</string>
+    <string name="timeline_date">02 - 05 - 2015</string>
+    <string name="timeline_healthy">Saludable</string>
+    <string name="timeline_ohshit">Anomalía</string>
+    <string name="timeline_future">Pendiente</string>
+    <string name="title_activity_survey">Encuesta</string>
+    <string name="title_activity_timeline">Línea de tiempo</string>
+    <string name="title_activity_doctor">Doctores</string>
+    <string name="title_activity_doctors">Doctores</string>
+    <string name="title_activity_library">Biblioteca</string>
+    <string name="title_activity_avatarcreation">Avatar</string>
+    <string name="expandablelist_lastchild_ubicacion">Ver Ubicación</string>
+    <string name="preferences">Preferencias</string>
+    <string name="name_pref">NAME_PREF</string>
+    <string name="date_pref">DATE_PREF</string>
+    <string name="avatar_pref">AVATAR_PREF</string>
+    <string name="first_pref">FIRST_PREF</string>
+    <string name="temp_result_pref">TEMP_RESULTS</string>
+    <string name="cita_medica">: Cita Médica</string>
+    <string name="cita_medica2">Cita Médica</string>
+    <string name="cita_medica_reminder">Recordatorio de cita médica</string>
+    <string name="anomalia">Anomalía</string>
+    <string name="fecha_autoexamen">Es recomendable que se realice el auto-examen entre 3 a 5 días luego del inicio de su periodo menstrual,
+        ya que las mamas están menos tensas e hinchadas. Si usted es menopáusica, puede escoger cualquier fecha del mes.</string>
+
+
+    <!--
+        - Strings for the steps screen explaining the different steps.
+    -->
+    <string name="step0">¡Empecemos el examen!</string>
+    <string name="step1">Párate frente al espejo, y lleva tus manos detrás de la cabeza con los codos elevados. Examina la forma, tamaño, posición del pezón, masas o bultos, hundimientos, cambios de textura y coloración de la piel de tus senos.</string>
+    <string name="step2">Para examinar tu mama derecha, coloca la mano derecha detrás de la cabeza, elevando el codo.</string>
+    <string name="step2_1">Con tu mano izquierda, presiona suavemente y con movimientos circulares, utilizando la yema de los dedos índice, medio y anular, dando vuelta a la mama en el sentido de las agujas del reloj. Palpa toda la superficie y determina la presencia de masas o dolor.</string>
+    <string name="step2_2">Examina tu pezón derecho con los dedos pulgar e índice, presiona suavemente y observa si hay salida de secreción o sangrado.</string>
+    <string name="step2_3">Para examinar la axila debes realizar movimientos circulares con la yema de los dedos, tratando de determinar la presencia de masas o bultos.</string>
+    <string name="step3">Para examinar tu mama izquierda, coloca la mano izquierda detrás de la cabeza, elevando el codo.</string>
+    <string name="step3_1">Con tu mano derecha, presiona suavemente y con movimientos circulares, utilizando la yema de los dedos índice, medio y anular, dando vuelta a la mama en el sentido de las agujas del reloj. Palpa toda la superficie y determina la presencia de masas o dolor.</string>
+    <string name="step3_2">Examina tu pezón izquierdo con los dedos pulgar e índice, presiona suavemente y observa si hay salida de secreción o sangrado.</string>
+    <string name="step3_3">Para examinar la axila debes realizar movimientos circulares con la yema de los dedos, tratando de determinar la presencia de masas.</string>
+    <string name="step4">Ahora, acuéstate y coloca una almohada bajo tu hombro derecho. Para examinar tu mama derecha, coloca tu mano derecha detrás de la cabeza elevando el codo. </string>
+    <string name="step4_1">Con la mano izquierda, utilizando la yema de tus dedos, presiona suavemente con movimientos circulares. Palpa toda la superficie en busca de una masa o zona hundida.</string>
+    <string name="step5">Para examinar tu mama izquierda, coloca la mano izquierda detrás de la cabeza elevando el codo.</string>
+    <string name="step5_1">Con la mano derecha, con la yema de los dedos, presiona suavemente con movimientos circulares. Palpa toda la superficie en busca de una masa o zona hundida. </string>
+    <string name="title_activity_step">Pasos Auto-Examen</string>
+
+
+    <!--
+        - Strings for the symptoms inside the survey screen.
+    -->
+    <string name="symptom1">Secreción</string>
+    <string name="symptom1_detail">Secreción crónica de un líquido sanguinolento a través del pezón.</string>
+    <string name="symptom2">Apariencia del pezón</string>
+    <string name="symptom2_detail">Cambios en la apariencia física del pezón (Enrojecimiento, descamación o hundimiento).</string>
+    <string name="symptom3">Forma o tamaño de los senos</string>
+    <string name="symptom3_detail">Cambio radical en el tamaño de los senos. Un seno puede ser más grande o más pequeño que el otro.</string>
+    <string name="symptom4">Tensión o picazón</string>
+    <string name="symptom4_detail">Tensión o picazón en alguno de los senos aún después del ciclo menstrual.</string>
+    <string name="symptom5">Textura de la piel</string>
+    <string name="symptom5_detail">Enrojecimientos, irritación, sarpullidos (erupciones), piel de naranja,  arrugas y hoyuelos.</string>
+    <string name="symptom6">Presencia de una masa</string>
+    <string name="symptom6_detail">Presencia de una masa en el seno o en la axila.</string>
+    <string name="title_activity_result">Resultados</string>
+    <string name="title_activity_first_time">BreastAware</string>
+
+    <!--
+    - Did you know?
+    -->
+    <string name="sabias_que_1">El cáncer de seno es 100 veces más común en mujeres que en hombres</string>
+    <string name="sabias_que_2">Se cree que del 5 al 10% de los casos de cáncer de mama son hereditarios</string>
+    <string name="sabias_que_3">La causa más común de cáncer de mama es una mutación hereditaria en los genes BRCA1 y BRCA2</string>
+    <string name="sabias_que_4">Los embarazos múltiples o quedar embarazada joven reduce el riesgo del cáncer de mama</string>
+    <string name="sabias_que_5">La lactancia podría disminuir el riesgo de padecer cáncer de seno</string>
+    <string name="sabias_que_6">Más del 80% de los bultos en los senos no son cancerosos</string>
+    <string name="sabias_que_7">Una investigación realizada por la Universidad de Lund, en Suecia, sugiere que beber café puede prevenir el cáncer de mama</string>
+    <string name="sabias_que_8">Consumir bebidas alcohólicas está claramente asociado al aumento en el riesgo de padecer cáncer de mama</string>
+    <string name="sabias_que_9">Se pueden hacer pruebas genéticas para identificar mutaciones genéticas en los genes BRCA1 y BRCA2</string>
+    <string name="sabias_que_10">Si el cáncer de mama se detecta en estadio 1, hay un 98% de supervivencia</string>
+    <string name="sabias_que_11">Mantener una dieta baja en grasas animales y rica en granos enteros es ideal para prevenir el cáncer de mama</string>
+    <string name="sabias_que_12">Más de 3 o 4 bebidas alcohólicas a la semana puede incrementar el riesgo de padecer cáncer de mama</string>
+    <string name="sabias_que_13">Conocer tus senos puede prevenirte del cáncer de mama, eso te ayudara a notar cualquier anomalía y actuar a tiempo.</string>
+    <string name="sabias_que_14">Se ha asociado la ingesta de complementos nutricionales como el Ácido Fólico en la disminución del cáncer de mama</string>
+    <string name="sabias_que_15">El cáncer de mama no solo afecta a mujeres, sino también a hombres</string>
+    <string name="sabias_que_16">96% de las mujeres que son tratadas de manera temprana de cáncer de mama, estarán libre de cáncer después de 5 años</string>
+    <string name="sabias_que_17">La detección precoz y la búsqueda de un tratamiento inmediato son los medios más efectivos para controlar el cáncer de mama</string>
+    <string name="sabias_que_18">El tejido mamario de las jóvenes suele ser más denso que el de las mujeres mayores</string>
+    <string name="sabias_que_19">El sobrepeso es un factor que está asociado con el padecimiento de cáncer de mama</string>
+    <string name="sabias_que_20">Reduciendo la ingesta de bebidas alcohólicas puedes prevenir el cáncer de mama</string>
+
+    <!--
+        - Strings for info dialogs.
+    -->
+    <string name="didyouknow_title">¿Sabías que...?</string>
+    <string name="info_avatar_title">Creación del avatar</string>
+    <string name="info_avatar">
+        En esta sección puedes modificar la apariencia de tu avatar.
+        \n
+        \nLos controles son diversos:
+        \n- Seleccionar con un clic
+        \n- Arrastrar las piezas
+        \n- Pasar el dedo sobre la chica para quitar ropa
+        \n
+        \n\t\t\t\t¡DISFRUTA!
+    </string>
+    <string name="info_main_title">Menú principal</string>
+    <string name="info_main">
+        Este es el menú principal que cuenta con acceso a las otras secciones de la aplicación:
+        \n
+        \n- Examen: realiza el autoexamen a través de una guía ilustrada
+        \n- Doctores: contacta a los especialistas de la zona para una consulta
+        \n- Línea de tiempo: crea recordatorios para mantenerte al día
+        \n- Biblioteca: información adicional sobre el cáncer de mama
+        \n- Avatar: modifica el avatar y siéntete identificada con ella
+        \n- ¿Sabías qué..?: fuente de curiosidades respecto a la prevención del cancer mamario
+    </string>
+        <string name="info_doctors_title">Contactos de doctores</string>
+    <string name="info_doctors">
+        Recopilación de contactos de especialistas que podrán ayudaarte en caso de necesitarlo.
+        \n\n
+        Para cada uno podrás realizar llamada presionando el botón correspondiente
+    </string>
+        <string name="info_library_title">Biblioteca</string>
+    <string name="info_library">
+        Información de interés sobre el tópico que inspiró el desarrollo de esta aplicación, la prevención del cáncer de mama.
+        \n\n
+    </string>
+        <string name="info_steps_title">Autoexamen</string>
+    <string name="info_steps">
+        Guía ilustrada para la realización del autoexamen. En caso de encontrar algo inusual, debes marcarlo en la lista que se presenta posterior al examen.
+        \n\n
+        Para ver el siguiente paso puedes deslizar el dedo sobre la imagen o presionar sobre los botones correspondientes.
+    </string>
+        <string name="info_survey_title">Resumen del examen</string>
+    <string name="info_survey">
+        Si notaste algo durante el autoexamen debes identificar el síntoma y marcarlo en la lista para así tener un registro del mismo.
+    </string>
+        <string name="info_timeline_title">Línea de tiempo</string>
+    <string name="info_timeline">
+        En esta sección podrás encontrar un registro de los resultados de los examenes realizados y los recordatorios para futuros eventos (los cuales activarán una notificación en tu dispositivo)
+        \n\nSi cliqueas una fecha futura podrás crear un recordatorio que puede ser de tres tipos:
+        \n\n\tRecordatorio de autoexamen (color rosa)
+        \n\tRecordatorio de cita médica (color azul)
+        \n\tRecordatorio variado (color morado)
+        \n\nPara cada uno podrás elegir fecha, hora, tipo y detalles.
+        \n\nPara ver los resultados detallados de un autoexamen pasado puedes cliquear en la línea de tiempo o en la fecha correspondiente del calendario.
+    </string>
+        <string name="info_result_title">Resultados</string>
+    <string name="info_result">
+        Luego de realizar el autoexamen se presenta el resultado del mismo con una recomendación de ser necesaria.
+    </string>
+        <string name="info_first_title">Pantalla inicial</string>
+    <string name="info_first">
+        Antes de empezar a utilizar la aplicación es necesario que introduzcas tus datos para hacer de la experiencia algo más personal
+    </string>
+
+    <string name="librarytitle1">Cáncer de mama</string>
+    <string name="library1">El cáncer de mama es una amenaza mundial, no sólo para mujeres sino también en hombres; el número de personas que se ven afectadas por esta enfermedad va en aumento,  en Latinoamérica por ejemplo, es el tumor que más vida de féminas cobra, según  la Organización Panamericana de Salud, OPS. Para el año 2012 más de 408.000 mujeres fueron diagnosticadas y 92.000 fallecieron. Son cifras alarmantes, que seguirán aumentando si no se hace nada.</string>
+    <string name="librarytitle2">Estadísticas</string>
+    <string name="library2">aumentando si no se hace nada.
+        \nSe estima que en América Latina, para el 2030 ocurrirán 850.000 muertes en jóvenes y señoras, entre 29 y 69 años (OMS, S/F)
+        \nPor otro lado, las cifras en el país de acuerdo con la Sociedad Anticancerosa de Venezuela (2014), indican que  1 de cada cinco mujeres, muere por cáncer de mama avanzado. En el 2014 se diagnosticaron 11 casos de esta enfermedad por día y de estos, al menos 7 mueren (El Universal, 2014).
+</string>
+    <string name="librarytitle3">Título</string>
+    <string name="library3">La enfermedad registra un 98% de supervivencia si se detecta en el estadio 1, y entre 85% y 86% de supervivencia en el estadio 2, pero sólo un 30% cuando se identifica en los estadios 3 y 4.(Luna, 2010, p.1). Por este motivo es importante concientizarnos de que es una necesidad realizarse el autoexamen mensualmente. Solamente 5 minutos al día pueden ser la diferencia.</string>
+
+
+</resources>

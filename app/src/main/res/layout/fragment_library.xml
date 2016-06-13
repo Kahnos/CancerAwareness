@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.example.josed_000.cancerawareness.LibraryActivityFragment">
+    <ListView
+        android:layout_weight="1.2"
+        android:layout_width="0dp"
+        android:id="@+id/list_library"
+        android:background="@color/dark_pink"
+        android:layout_height="match_parent"
+        ></ListView>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="2.8"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_height="match_parent"
+        android:background="@color/pink">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/librarytitle1"
+            android:id="@+id/library_title"
+            android:textSize="25dp"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold" />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/library1"
+                android:textSize="16dp"
+                android:id="@+id/library_text" />
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>
